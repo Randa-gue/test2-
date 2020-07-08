@@ -1,0 +1,66 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+
+}
+h2{
+	color:black;
+	font-weight: bold;
+}
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#Sushi-tile, #Beef-tile, #Chicken-tile{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: #A9A9A9;
+  width: 95%;
+  height: auto;
+  font-family: Gill Sans, sans-serif;
+  color: black;
+  border:2px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+}
+#p1, #p2, #p3{
+	position: relative;
+	color:black;
+	font-weight: bolder;
+	font-size: 1.5em;
+	text-align: center;
+}
+#p4, #p5, #p6 {
+	margin-top:-30px;
+	font-weight: 200;
+}
+ #collapsable-nav a { /* Collapsed nav menu text change l'ecriture des ellements dans le menu pour s'adapter au petits logos*/
+    color :black;
+    text-align :center;
+}
+#nav-list a:hover {
+  background: #DCDCDC;
+}
